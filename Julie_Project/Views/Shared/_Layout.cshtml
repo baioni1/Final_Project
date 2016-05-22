@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+</head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("HOME", "Index", "Home")</li>
+                        <li>@Html.ActionLink("ABOUT", "About", "Home")</li>
+                        <li>@Html.ActionLink("PROJECTS", "Index", "Projects")</li>
+                        <li>@Html.ActionLink("CONTACT", "Contact", "Home")</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid body-content">
+
+            @RenderBody()
+
+        </div>   
+        <footer>
+            <div id="end">
+                <ul class="list-inline ">
+                    <li>
+                        <a href="https://github.com/baioni1?tab=repositories"><img src="~/Content/Images/Github-icon (2).png" /></a>
+                    <li>
+                        <a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile"><img src="~/Content/Images/Linked-In-icon (2).png" /></a>
+                    </li>
+                </ul>
+            </div>
+            <p id="thanks">Thank you to the We Can Code It Instructors and Staff</p>
+        </footer>
+
+
+
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+@RenderSection("scripts", required: false)
+    </body>
+</html>

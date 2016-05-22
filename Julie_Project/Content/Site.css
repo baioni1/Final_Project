@@ -1,0 +1,147 @@
+﻿body {
+      
+}
+p.moreInfo{
+    color:white;
+    font-family:'Segoe Print';
+    text-align:center;
+}
+nav.navbar{
+    font-family:'Segoe Print';
+    background-color:black;
+    opacity:.8;
+}
+.greenLightbulb {
+    min-height: 485px;
+    background: url('Images/iStock_greenlightbulbs_Rotated_Small.jpg')center no-repeat;
+    background-size: 87% auto;
+    background-color: black;
+}
+
+div.lightbulb {
+    min-height: 485px;
+    background: url('Images/iStock_Lightbulb_Small.jpg')center no-repeat;
+    background-size: 87% auto;
+    background-color: black;
+}
+div.paragraph{
+    height:350px;
+    background-color:black;
+}
+div.align{
+    height:350px;
+    background-color:yellow;
+}
+div.biography{
+    height:350px;
+    background-color:white;
+}
+.orangeLightbulb {
+    min-height: 485px;
+    background: url('Images/iStock_orangeLightbulb_rotated_Small.jpg')center no-repeat;
+    background-size: 87% auto;
+    background-color: black;
+}
+.aBox{
+    height:120px;
+}
+.aboutBox{
+    position:relative;
+    text-align:center;
+    height:120px;
+}
+.homeBox{
+    position:relative;
+    min-height:120px;
+    text-align:center;
+}
+.box{
+    position:relative;
+    padding-right:45px;
+    padding-left:100px;
+    padding-bottom:45px;
+    height:400px;  
+}
+div.pic {
+    height: 165px;     
+}
+
+.picture{
+    height:165px;
+    background: url('Images/profilePic (2).jpg')center no-repeat;
+    background-size:100% auto; 
+}
+h1.info{
+    font-family:'Kaushan Script', cursive;
+    color:white;
+}
+h1.textColor{
+    color:white;
+}
+h4.contactInfo{
+    font-family:'Segoe Print';
+    color:white;
+}
+p#thanks{
+    font-size:10px;
+    font-family:'Segoe Print';
+    color:white;
+}
+div#aboutLinks{
+    padding-left:800px;
+    padding-bottom:25px;
+    color:white;
+}
+div#contactLinks{
+    color:white;
+}
+.blueLightbulb {
+    min-height:485px;
+    background: url('Images/iStock_blueLigthbulb_Small.jpg')center no-repeat;
+    background-size:87% auto;
+    background-color:black;
+}
+.aboutInfo {
+    height: 360px;
+    background-color:white;   
+}
+.spacer2{
+    height:60px;
+    background-color:black;
+}
+.spacer{
+    height:100px;  
+}
+.spacer3{
+    height:180px;
+}
+}
+div.createLink{
+    text-align:center;
+}   
+ul icons{
+    display: inline-block;
+    text-align:center;   
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+ 
+}
+.container-fluid{
+   
+}
+footer {
+    height: 125px;
+    text-align: center;
+    background-color:black;
+}
+.dl-horizontal dt{
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
