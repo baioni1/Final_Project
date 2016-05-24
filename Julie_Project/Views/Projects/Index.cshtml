@@ -5,20 +5,22 @@
 }
 <div class="orangeLightbulb">
     <div class="col-md-12 spacer3"></div>
-    <div class="col-md-2"></div>
-    <div class="col-md-4 aBox">
-        <h1 class="info">Projects By Julie</h1><br />
-        <p class="moreInfo">
-            more info will go here and I will keep on/br>
-            and more stuff over and over again.
-        </p>
+    <div class="row container">
+        <div class="col-md-2"></div>
+        <div class="col-md-6 aboutBox">
+            <h1 class="info">Projects By Julie</h1><br />
+            <p class="moreInfo">
+                more info will go here and I will keep on/br>
+                and more stuff over and over again.
+            </p>
+        </div>
     </div>
 </div>
 <div class="col-md-12 spacer2"></div>
+<div class="col-md-12 spacer"></div>
 <div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-        <h1 class="">Projects</h1>
+    <div class="col-md-11">
+        <h1 class="projects">Projects</h1><hr />
         <div class="dropdown">
             <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                 CodeEval Challenges
@@ -35,16 +37,76 @@
             </ul>
         </div>
     </div>
-    <div class="col-md-2 createLink">
-        <p>@Html.ActionLink("Create New", "Create")</p>
+</div>
+<div class="col-md-6 row ProjectBox">
+    <div class="container">
+        <div class="col-sm-4 bankingSystem"></div>
+        <div class="col-sm-8">
+            <h1>Banking System</h1>
+            <p>This project is a Visual Studio console application working with classes.  The project objective was to write an application that would create a text file when user deposits or withdraws from the account.</p>
+            <p><a href="https://github.com/baioni1/Banking-System-Project.git">To GitHub</a></p>
+        </div>
     </div>
 </div>
-<div class="projectbox">
+<div class="col-md-6 row ProjectBox">
+    <div class="container">
+        <div class="col-sm-4 tic-tac-toe"></div>
+        <div class="col-sm-8">
+            <h1>Tic-Tac-Toe</h1>
+            <p>I developed and implemented a computer program that plays Tic-Tac-Toe against another player.</p>
+            <p><a href="https://github.com/baioni1/TicTac-Toe.git">To GitHub</a></p>
+        </div>
+    </div>
+</div>
+<div class="col-md-6 row ProjectBox">
+    <div class="container">
+        <div class="col-sm-4 meeting"></div>
+        <div class="col-sm-8">
+            <h1>Meeting Minutes Management</h1>
+            <p>This project is a Visual Studio console application using Stream-Writer to log meeting minutes to a text file.</p>
+            <p><a href="https://github.com/baioni1/MeetingMinutesUpdate.git">To GitHub</a></p>
+        </div>
+    </div>
 
+</div>
+<div class="col-md-6 row ProjectBox">
+    <div class="container">
+        <div class="col-sm-4 fortuneTeller"></div>
+        <div class="col-sm-8">
+            <h1>Fortune Teller</h1>
+            <p>This is a Fortune Teller application project where I used methods to be able to use different categories to determine your future.</p>
+            <p><a href="https://github.com/baioni1/Project-Day-1.git">To GitHub</a></p>
+        </div>
+    </div>
+</div>
+<div class="col-md-6 row ProjectBox">
+    <div class="container">
+        <div class="col-sm-4 virtualPet"></div>
+        <div class="col-sm-8">
+            <h1>Virtual Pet</h1>
+            <p>The Virtual Pet project is a Visual Studio console application. The application simulates feeding and exercising a pet</p>
+            <p><a href="https://github.com/baioni1/VirtualPet.git">To GitHub</a></p>
+        </div>
+    </div>
+</div>
+<div class="col-md-6 row ProjectBox">
+    <div class="container">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-8">
+            <h1>Banking System</h1>
+            <p>I developed and implemented a computer program that plays Tic-Tac-Toe against another player.</p>
+            <p><a></a></p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-1"></div>
+    <di" class="col-md-1 space CreateLink">
+        <p>@Html.ActionLink("Create New", "Create")</p>
+    </di">
+</div>
     <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.ProjectName)
-        </th>
+        
         <th>
             @Html.DisplayNameFor(model => model.Description)
         </th>
@@ -86,4 +148,3 @@
         </tr>
     }
 
-</div>

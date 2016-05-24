@@ -43,6 +43,19 @@ div.biography{
     background-size: 87% auto;
     background-color: black;
 }
+div.projectBox {
+    height:250px;
+    
+}
+div.col-sm-4.bankingSystem{
+    min-height:250px;
+    background: url('Images/Banking_System_Project.jpg')center no-repeat;
+    background-size:100% auto;
+}
+div.col-sm-8{
+    min-height:250px;
+    padding-top:30px;
+}
 ul.list-inline{
     padding-right:150px;
     text-align:right;
@@ -74,16 +87,33 @@ ul.contactIcon{
     padding-bottom:45px;
     height:400px;  
 }
-div.pic {
-    height: 165px;     
+div.end{
+    text-align:center;
 }
-
-.picture{
-    height:165px;
+div.profilePic {
+    height: 165px;   
+}
+div.col-md-11{
+    padding-left:35px;
+}
+h2.info{
+    font-size:55px;
+    font-family:'Kaushan Script', cursive;
+    color:white;
+}
+div.col-md-10{
+    position:center;
+}
+div.picture {
+    min-height: 165px;
     background: url('Images/profilePic (2).jpg')center no-repeat;
-    background-size:100% auto; 
+    background-size: 100% auto;
+}
+h1.projects{
+    text-align:center;
 }
 h1.info{
+    
     font-size:55px;
     font-family:'Kaushan Script', cursive;
     color:white;
@@ -96,8 +126,8 @@ h4.contactInfo{
     color:white;
     font-size:25px;
 }
-p#thanks{
-    font-size:18px;
+p.thanks{
+    font-size:15px;
     font-family:'Segoe Print';
     color:white;
 }
@@ -144,13 +174,18 @@ ul footer{
 .container-fluid{
    
 }
+div.row{
+    margin-right:0px;
+    margin-left:0px;
+}
 ul.footer{
-    padding-right:750px;
+    padding-right:735px;
 }
 footer {
-    height: 125px;
+    height: 220px;
     text-align: center;
     background-color:black;
+    padding-top:55px;
 }
 .dl-horizontal dt{
     white-space: normal;
