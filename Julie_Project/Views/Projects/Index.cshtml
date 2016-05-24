@@ -1,12 +1,12 @@
 ﻿@model IEnumerable<Julie_Project.Models.Project>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Projects";
 }
 <div class="orangeLightbulb">
     <div class="col-md-12 spacer3"></div>
     <div class="col-md-2"></div>
-    <div class="col-md-4 box">
+    <div class="col-md-4 aBox">
         <h1 class="info">Projects By Julie</h1><br />
         <p class="moreInfo">
             more info will go here and I will keep on/br>
@@ -16,8 +16,9 @@
 </div>
 <div class="col-md-12 spacer2"></div>
 <div class="row">
+    <div class="col-md-1"></div>
     <div class="col-md-10">
-        <h1>Projects</h1>
+        <h1 class="">Projects</h1>
         <div class="dropdown">
             <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                 CodeEval Challenges
@@ -38,7 +39,8 @@
         <p>@Html.ActionLink("Create New", "Create")</p>
     </div>
 </div>
-<table class="table">
+<div class="projectbox">
+
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.ProjectName)
@@ -84,4 +86,4 @@
         </tr>
     }
 
-</table>
+</div>

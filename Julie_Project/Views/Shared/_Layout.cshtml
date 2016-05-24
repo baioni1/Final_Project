@@ -13,14 +13,21 @@
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <ul class="nav navbar-nav">
-                        <li>@Html.ActionLink("HOME", "Index", "Home")</li>
-                        <li>@Html.ActionLink("ABOUT", "About", "Home")</li>
-                        <li>@Html.ActionLink("PROJECTS", "Index", "Projects")</li>
-                        <li>@Html.ActionLink("CONTACT", "Contact", "Home")</li>
-                    </ul>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div>
-            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("HOME", "Index", "Home")</li>
+                    <li>@Html.ActionLink("ABOUT", "About", "Home")</li>
+                    <li>@Html.ActionLink("PROJECTS", "Index", "Projects")</li>
+                    <li>@Html.ActionLink("CONTACT", "Contact", "Home")</li>        
+                </ul>
+           </div>
+           </div>
         </nav>
         <div class="container-fluid body-content">
 
@@ -29,11 +36,15 @@
         </div>   
         <footer>
             <div id="end">
-                <ul class="list-inline ">
+                <ul class=" footer list-inline ">
                     <li>
-                        <a href="https://github.com/baioni1?tab=repositories"><img src="~/Content/Images/Github-icon (2).png" /></a>
+                        <a href="https://github.com/baioni1?tab=repositories">
+                            <img src="~/Content/Images/Github-icon.png" />
+                        </a>
                     <li>
-                        <a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile"><img src="~/Content/Images/Linked-In-icon (2).png" /></a>
+                        <a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile">
+                            <img src="~/Content/Images/Linked-In-icon.png" />
+                        </a>
                     </li>
                 </ul>
             </div>

@@ -2,6 +2,7 @@
       
 }
 p.moreInfo{
+    font-size:25px;
     color:white;
     font-family:'Segoe Print';
     text-align:center;
@@ -12,14 +13,14 @@ nav.navbar{
     opacity:.8;
 }
 .greenLightbulb {
-    min-height: 485px;
+    min-height: 725px;
     background: url('Images/iStock_greenlightbulbs_Rotated_Small.jpg')center no-repeat;
     background-size: 87% auto;
     background-color: black;
 }
 
 div.lightbulb {
-    min-height: 485px;
+    min-height: 725px;
     background: url('Images/iStock_Lightbulb_Small.jpg')center no-repeat;
     background-size: 87% auto;
     background-color: black;
@@ -37,18 +38,29 @@ div.biography{
     background-color:white;
 }
 .orangeLightbulb {
-    min-height: 485px;
+    min-height: 725px;
     background: url('Images/iStock_orangeLightbulb_rotated_Small.jpg')center no-repeat;
     background-size: 87% auto;
     background-color: black;
 }
+ul.list-inline{
+    padding-right:150px;
+    text-align:right;
+    font-size:20px;
+}
+ul.contactIcon{
+    text-align:left;
+    font-size:20px;
+}
 .aBox{
-    height:120px;
+    position:relative;
+    height:220px;
+    text-align:center;
 }
 .aboutBox{
     position:relative;
     text-align:center;
-    height:120px;
+    height:220px;
 }
 .homeBox{
     position:relative;
@@ -72,6 +84,7 @@ div.pic {
     background-size:100% auto; 
 }
 h1.info{
+    font-size:55px;
     font-family:'Kaushan Script', cursive;
     color:white;
 }
@@ -81,9 +94,10 @@ h1.textColor{
 h4.contactInfo{
     font-family:'Segoe Print';
     color:white;
+    font-size:25px;
 }
 p#thanks{
-    font-size:10px;
+    font-size:18px;
     font-family:'Segoe Print';
     color:white;
 }
@@ -96,7 +110,7 @@ div#contactLinks{
     color:white;
 }
 .blueLightbulb {
-    min-height:485px;
+    min-height:725px;
     background: url('Images/iStock_blueLigthbulb_Small.jpg')center no-repeat;
     background-size:87% auto;
     background-color:black;
@@ -106,20 +120,20 @@ div#contactLinks{
     background-color:white;   
 }
 .spacer2{
-    height:60px;
+    height:100px;
     background-color:black;
 }
 .spacer{
-    height:100px;  
+    height:165px;  
 }
 .spacer3{
-    height:180px;
+    height:275px;
 }
 }
 div.createLink{
     text-align:center;
 }   
-ul icons{
+ul footer{
     display: inline-block;
     text-align:center;   
 }
@@ -129,6 +143,9 @@ ul icons{
 }
 .container-fluid{
    
+}
+ul.footer{
+    padding-right:750px;
 }
 footer {
     height: 125px;
