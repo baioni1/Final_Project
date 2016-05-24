@@ -2,7 +2,7 @@
       
 }
 p.moreInfo{
-    font-size:25px;
+    font-size:18px;
     color:white;
     font-family:'Segoe Print';
     text-align:center;
@@ -20,7 +20,7 @@ nav.navbar{
 }
 
 div.lightbulb {
-    min-height: 725px;
+    min-height: 695px;
     background: url('Images/iStock_Lightbulb_Small.jpg')center no-repeat;
     background-size: 87% auto;
     background-color: black;
@@ -47,28 +47,18 @@ div.projectBox {
     height:250px;
     
 }
-div.col-sm-4.bankingSystem{
+div.col-sm-4{
     min-height:250px;
-    background: url('Images/Banking_System_Project.jpg')center no-repeat;
-    background-size:100% auto;
+    background:25%;
 }
-div.col-sm-4.meeting {
-    min-height: 250px;
-    background: url('Images/meeting_minutes.png')center no-repeat;
-    background-size: 100% auto;
-}
-div.col-sm-4.tic-tac-toe{
-    min-height: 250px;
-    background: url('Images/Tic_Tac_Toe.png')center no-repeat;
-    background-size: 100% auto;
-}
+
+
 div.col-sm-8{
     min-height:250px;
     padding-top:30px;
 }
 ul.list-inline{
-    padding-right:150px;
-    text-align:right;
+    text-align:center;
     font-size:20px;
 }
 ul.contactIcon{
@@ -100,31 +90,25 @@ ul.contactIcon{
 div.end{
     text-align:center;
 }
-div.profilePic {
-    height: 165px;   
-}
-div.col-md-12{
+
+/*div.col-md-12{
     padding-left:35px;
-}
+}*/
 h2.info{
-    font-size:55px;
+    font-size:35px;
     font-family:'Kaushan Script', cursive;
     color:white;
 }
-div.col-md-10{
+/*div.col-md-10{
     position:center;
-}
-div.picture {
-    min-height: 165px;
-    background: url('Images/profilePic (2).jpg')center no-repeat;
-    background-size: 100% auto;
-}
+}*/
+
 h1.projects{
     text-align:left;
 }
 h1.info{
     
-    font-size:55px;
+    font-size:35px;
     font-family:'Kaushan Script', cursive;
     color:white;
 }
@@ -134,7 +118,7 @@ h1.textColor{
 h4.contactInfo{
     font-family:'Segoe Print';
     color:white;
-    font-size:25px;
+    font-size:18px;
 }
 p.thanks{
     font-size:15px;
@@ -160,7 +144,7 @@ div#contactLinks{
     background-color:white;   
 }
 .spacer2{
-    height:100px;
+    height:75px;
     background-color:black;
 }
 .spacer{
@@ -182,20 +166,19 @@ ul footer{
  
 }
 .container-fluid{
-   
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
-div.row{
-    margin-right:0px;
-    margin-left:0px;
-}
-ul.footer{
+
+/*ul.footer{
     padding-right:735px;
-}
+}*/
 footer {
-    height: 220px;
+    height: 150px;
     text-align: center;
     background-color:black;
-    padding-top:55px;
+    padding-top:25px;
+    padding-bottom:25px;
 }
 .dl-horizontal dt{
     white-space: normal;
