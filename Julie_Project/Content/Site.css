@@ -52,6 +52,16 @@ div.col-sm-4.bankingSystem{
     background: url('Images/Banking_System_Project.jpg')center no-repeat;
     background-size:100% auto;
 }
+div.col-sm-4.meeting {
+    min-height: 250px;
+    background: url('Images/meeting_minutes.png')center no-repeat;
+    background-size: 100% auto;
+}
+div.col-sm-4.tic-tac-toe{
+    min-height: 250px;
+    background: url('Images/Tic_Tac_Toe.png')center no-repeat;
+    background-size: 100% auto;
+}
 div.col-sm-8{
     min-height:250px;
     padding-top:30px;
@@ -93,7 +103,7 @@ div.end{
 div.profilePic {
     height: 165px;   
 }
-div.col-md-11{
+div.col-md-12{
     padding-left:35px;
 }
 h2.info{
@@ -110,7 +120,7 @@ div.picture {
     background-size: 100% auto;
 }
 h1.projects{
-    text-align:center;
+    text-align:left;
 }
 h1.info{
     
