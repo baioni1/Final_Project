@@ -1,9 +1,9 @@
 ﻿body {
-      
+
 }
 p.moreInfo{
     font-size:18px;
-    color:white;
+    color:#F1F2C4;
     font-family:'Segoe Print';
     text-align:center;
 }
@@ -13,49 +13,49 @@ nav.navbar{
     opacity:.8;
 }
 .greenLightbulb {
-    min-height: 725px;
+    min-height: 620px;
     background: url('Images/iStock_greenlightbulbs_Rotated_Small.jpg')center no-repeat;
-    background-size: 87% auto;
-    background-color: black;
+    background-size:75% auto;
+    background-color:black;
+
 }
 
 div.lightbulb {
-    min-height: 695px;
+    min-height: 620px;
     background: url('Images/iStock_Lightbulb_Small.jpg')center no-repeat;
-    background-size: 87% auto;
-    background-color: black;
+    background-size:75% auto;
+    background-color:black; 
+}
+.blueLightbulb {
+    min-height: 620px;
+    background: url('Images/iStock_blueLigthbulb_Small.jpg')center no-repeat;
+    background-size:75% auto;
+    background-color:black;
+}
+div.about{
+    padding:35px;
+    padding-left:35px;
 }
 div.paragraph{
     height:350px;
-    background-color:black;
-}
-div.align{
-    height:350px;
-    background-color:yellow;
-}
-div.biography{
-    height:350px;
-    background-color:white;
 }
 .orangeLightbulb {
-    min-height: 725px;
+    min-height: 620px;
     background: url('Images/iStock_orangeLightbulb_rotated_Small.jpg')center no-repeat;
-    background-size: 87% auto;
-    background-color: black;
+    background-size: 75% auto;
+    background-color:black;
 }
-div.projectBox {
-    height:250px;
-    
+div.bioPic {
+    min-height:420px;
+    background: url('Images/Characture8.jpg')center no-repeat;
+    background-size:100% auto;
 }
 div.col-sm-4{
     min-height:250px;
     background:25%;
 }
-
-
 div.col-sm-8{
     min-height:250px;
-    padding-top:30px;
 }
 ul.list-inline{
     text-align:center;
@@ -65,27 +65,29 @@ ul.contactIcon{
     text-align:left;
     font-size:20px;
 }
-.aBox{
-    position:relative;
+div.projectBox{
     height:220px;
     text-align:center;
+    background-color:black;
 }
-.aboutBox{
-    position:relative;
+div.box{
+    padding-left:50px;
+    padding-right:50px;
+}
+div.aboutBox{
     text-align:center;
+    height:280px;
+    background-color:black;
+}
+div.homeBox{
     height:220px;
-}
-.homeBox{
-    position:relative;
-    min-height:120px;
     text-align:center;
+    background-color:black;
 }
-.box{
-    position:relative;
-    padding-right:45px;
-    padding-left:100px;
-    padding-bottom:45px;
-    height:400px;  
+div.contactBox{
+    padding-left:75px;
+    height:430px; 
+    background-color:black; 
 }
 div.end{
     text-align:center;
@@ -97,61 +99,64 @@ div.end{
 h2.info{
     font-size:35px;
     font-family:'Kaushan Script', cursive;
-    color:white;
+    color:#F1F2C4;
 }
 /*div.col-md-10{
     position:center;
 }*/
-
+.overlay {
+    margin: 0 auto;
+    background: #434647;
+    color: #fff;
+    opacity: .8;
+}
 h1.projects{
     text-align:left;
+    padding-top:0;
+    padding-bottom:5px;
 }
 h1.info{
-    
     font-size:35px;
     font-family:'Kaushan Script', cursive;
-    color:white;
+    color:#F1F2C4;
 }
 h1.textColor{
-    color:white;
+    color:#F1F2C4;
 }
 h4.contactInfo{
     font-family:'Segoe Print';
-    color:white;
+    color:#F1F2C4;
     font-size:18px;
 }
 p.thanks{
     font-size:15px;
     font-family:'Segoe Print';
-    color:white;
+    color:#F1F2C4;
 }
 div#aboutLinks{
     padding-left:800px;
     padding-bottom:25px;
-    color:white;
+    color:#F1F2C4;
 }
 div#contactLinks{
-    color:white;
+    color:#F1F2C4;
 }
-.blueLightbulb {
-    min-height:725px;
-    background: url('Images/iStock_blueLigthbulb_Small.jpg')center no-repeat;
-    background-size:87% auto;
-    background-color:black;
+
+h1.projects{
+    padding-left:35px;
 }
 .aboutInfo {
     height: 360px;
-    background-color:white;   
+    background-color:#F1F2C4;   
 }
-.spacer2{
-    height:75px;
-    background-color:black;
+div.spacer2{
+    height:115px; 
 }
 .spacer{
-    height:165px;  
+    height:75px;  
 }
 .spacer3{
-    height:275px;
+    height:225px;
 }
 }
 div.createLink{
@@ -161,9 +166,13 @@ ul footer{
     display: inline-block;
     text-align:center;   
 }
+div.breakline{
+    height:5px;
+    background-color:black;
+}
 /* Set padding to keep content from hitting the edges */
 .body-content {
- 
+    background-color:#F1F2C4;
 }
 .container-fluid{
     padding-right: 0 !important;

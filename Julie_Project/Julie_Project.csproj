@@ -168,6 +168,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Images\Banking_System_Project.jpg" />
     <Content Include="Content\Images\Characture8.jpg" />
+    <Content Include="Content\Images\FortuneTeller.png" />
     <Content Include="Content\Images\Github-icon %282%29.png" />
     <Content Include="Content\Images\Github-icon.png" />
     <Content Include="Content\Images\iStock_blueLigthbulb_Small.jpg" />
@@ -177,9 +178,9 @@
     <Content Include="Content\Images\Linked-In-icon %282%29.png" />
     <Content Include="Content\Images\Linked-In-icon.png" />
     <Content Include="Content\Images\meeting_minutes.png" />
-    <Content Include="Content\Images\profilePic %282%29.jpg" />
-    <Content Include="Content\Images\profilePic %283%29.jpg" />
     <Content Include="Content\Images\Tic_Tac_Toe.png" />
+    <Content Include="Content\Images\VirtualPet.png" />
+    <Content Include="Content\Images\ZooAnimals.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
