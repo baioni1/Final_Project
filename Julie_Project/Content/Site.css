@@ -142,6 +142,10 @@ h1.projects{
 div.spacer2{
     height:115px; 
 }
+.spacer4{
+    height:55px;
+    background-color:black;
+}
 .spacer{
     height:75px;  
 }

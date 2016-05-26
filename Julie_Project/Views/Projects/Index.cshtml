@@ -3,23 +3,22 @@
 @{
     ViewBag.Title = "Projects";
 }
-<div class="row">
-    <div class="blueLightbulb">
-        <div class="col-md-12 spacer3"></div>
-        <div class="col-md-2"></div>
-        <div class="col-md-4 projectBox overlay">
-            <h1 class="info">Projects By Julie</h1><br />
-            <p class="moreInfo">
-                My projects showcase my educational journey into Software Engineering
-            </p>
-        </div>
+
+<div class="blueLightbulb">
+    <div class="col-md-12 spacer3"></div>
+    <div class="col-md-2"></div>
+    <div class="col-md-4 projectBox overlay">
+        <h1 class="info">Projects By Julie</h1><br />
+        <p class="moreInfo">
+            My projects showcase my educational journey into Software Engineering
+        </p>
     </div>
 </div>
+<div class="col-md-12 spacer4"></div>
 <div class="col-md-12 spacer">
-<div class="row"></div>
-<div class="col-md-12">
-    <h1 class="projects">Projects</h1>
-</div>
+    <div class="col-md-12">
+        <h1 class="projects">Projects</h1>
+    </div>
 </div>
 <div class="col-sm-12 breakline"></div>
 <div class="col-md-12 spacer"></div>
@@ -37,16 +36,16 @@
                     <p>@Html.DisplayFor(modelItem => item.Description)</p>
                     <p><a href="@Html.DisplayFor(modelItem => item.GitHubUrl)" target="_blank">To GitHub</a></p>
                     @*@<ul class="list-inline">
-                        <li>@Html.ActionLink("Edit", "Edit", new { id = item.ProjectId })</li>
-                        <li>@Html.ActionLink("Details", "Details", new { id = item.ProjectId })</li>
-                        <li>@Html.ActionLink("Delete", "Delete", new { id = item.ProjectId })</li>
-                    </ul>*@
+                            <li>@Html.ActionLink("Edit", "Edit", new { id = item.ProjectId })</li>
+                            <li>@Html.ActionLink("Details", "Details", new { id = item.ProjectId })</li>
+                            <li>@Html.ActionLink("Delete", "Delete", new { id = item.ProjectId })</li>
+                        </ul>*@
                 </div>
             </div>
         </div>
     }
 </div>
-<div class="col-md-12 spacer"></div> 
+<div class="col-md-12 spacer"></div>
 <div class="col-md-6 box">
     <div class="row">
         <div class="col-md-4 button">
@@ -66,16 +65,17 @@
         </div>
         <div class="col-md-8">
             <h3>CodeEval</h3>
-            <p>is a platform used by developers to showcase their skills. 
-               Developers can participate in app building competitions. 
-               They can also solve programming challenges
+            <p>
+                is a platform used by developers to showcase their skills.
+                Developers can participate in app building competitions.
+                They can also solve programming challenges
             </p>
         </div>
     </div>
 </div>
 <div class="col-md-12 spacer2"></div>
 @*<div class="col-md-8"></div>
-<div class="col-md-2 space CreateLink" style="text-align:right;">
-    <p>@Html.ActionLink("Create New", "Create")</p>
-</div>
-<div class="col-md-12 spacer"></div>*@    
+    <div class="col-md-2 space CreateLink" style="text-align:right;">
+        <p>@Html.ActionLink("Create New", "Create")</p>
+    </div>
+    <div class="col-md-12 spacer"></div>*@
