@@ -17,9 +17,7 @@ nav.navbar{
     background: url('Images/iStock_greenlightbulbs_Rotated_Small.jpg')center no-repeat;
     background-size:75% auto;
     background-color:black;
-
 }
-
 div.lightbulb {
     min-height: 620px;
     background: url('Images/iStock_Lightbulb_Small.jpg')center no-repeat;
@@ -34,10 +32,11 @@ div.lightbulb {
 }
 div.about{
     padding:35px;
-    padding-left:35px;
 }
 div.paragraph{
-    height:350px;
+    padding-left:55px;
+    padding-right:55px;
+    padding-top:25px;
 }
 .orangeLightbulb {
     min-height: 620px;
@@ -46,9 +45,8 @@ div.paragraph{
     background-color:black;
 }
 div.bioPic {
-    min-height:420px;
+    min-height:450px;
     background: url('Images/Characture8.jpg')center no-repeat;
-    background-size:100% auto;
 }
 div.col-sm-4{
     min-height:250px;
@@ -92,18 +90,11 @@ div.contactBox{
 div.end{
     text-align:center;
 }
-
-/*div.col-md-12{
-    padding-left:35px;
-}*/
 h2.info{
     font-size:35px;
     font-family:'Kaushan Script', cursive;
     color:#F1F2C4;
 }
-/*div.col-md-10{
-    position:center;
-}*/
 .overlay {
     margin: 0 auto;
     background: #434647;
@@ -141,9 +132,8 @@ div#aboutLinks{
 div#contactLinks{
     color:#F1F2C4;
 }
-
 h1.projects{
-    padding-left:35px;
+    padding-left:20px;
 }
 .aboutInfo {
     height: 360px;
@@ -157,7 +147,6 @@ div.spacer2{
 }
 .spacer3{
     height:225px;
-}
 }
 div.createLink{
     text-align:center;
@@ -174,20 +163,11 @@ div.breakline{
 .body-content {
     background-color:#F1F2C4;
 }
-.container-fluid{
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-}
-
-/*ul.footer{
-    padding-right:735px;
-}*/
 footer {
     height: 150px;
     text-align: center;
     background-color:black;
-    padding-top:25px;
-    padding-bottom:25px;
+    padding-top:55px;
 }
 .dl-horizontal dt{
     white-space: normal;

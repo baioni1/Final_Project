@@ -3,19 +3,23 @@
 @{
     ViewBag.Title = "Projects";
 }
-<div class="blueLightbulb">
-    <div class="col-md-12 spacer3"></div>
-    <div class="col-md-2"></div>
-    <div class="col-md-4 projectBox overlay">
-        <h1 class="info">Projects By Julie</h1><br />
-        <p class="moreInfo">
-            My projects showcase my educational journey into Software Engineering
-        </p>
+<div class="row">
+    <div class="blueLightbulb">
+        <div class="col-md-12 spacer3"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-4 projectBox overlay">
+            <h1 class="info">Projects By Julie</h1><br />
+            <p class="moreInfo">
+                My projects showcase my educational journey into Software Engineering
+            </p>
+        </div>
     </div>
 </div>
-<div class="col-md-12 spacer"></div>
+<div class="col-md-12 spacer">
+<div class="row"></div>
 <div class="col-md-12">
     <h1 class="projects">Projects</h1>
+</div>
 </div>
 <div class="col-sm-12 breakline"></div>
 <div class="col-md-12 spacer"></div>
@@ -31,7 +35,7 @@
                 <div class="col-sm-8">
                     <h3>@Html.DisplayFor(modelItem => item.ProjectName)</h3>
                     <p>@Html.DisplayFor(modelItem => item.Description)</p>
-                    <p><a href="@Html.DisplayFor(modelItem => item.GitHubUrl)">To GitHub</a></p>
+                    <p><a href="@Html.DisplayFor(modelItem => item.GitHubUrl)" target="_blank">To GitHub</a></p>
                     @*@<ul class="list-inline">
                         <li>@Html.ActionLink("Edit", "Edit", new { id = item.ProjectId })</li>
                         <li>@Html.ActionLink("Details", "Details", new { id = item.ProjectId })</li>
