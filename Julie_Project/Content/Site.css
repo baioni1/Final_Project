@@ -47,6 +47,7 @@ div.paragraph{
 div.bioPic {
     min-height:450px;
     background: url('Images/Characture8.jpg')center no-repeat;
+    background-size: 95% auto;
 }
 div.col-sm-4{
     min-height:250px;
